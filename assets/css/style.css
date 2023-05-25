@@ -11,8 +11,13 @@ body {
 header {
   background-color: #fff;
   width: 100%;
-  float: left;
+  height: 130px;
+  /* float: left; */
   border: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  border-bottom: 4px solid rgb(10, 210, 193);
 }
 h1 {
   background-color: rgb(10, 210, 193);
@@ -29,8 +34,11 @@ a {
 }
 nav {
   margin-right: 16%;
-  margin-bottom: px;
-  float: right;
+  /* float: right; */
+}
+main {
+  display: flex;
+  justify-content: space-between;
 }
 article {
   /* background-color: aqua; */
@@ -39,14 +47,14 @@ article {
 
   height: 650px;
 }
-.div-games {
-  /* background-color: purple; */
-  float: left;
-  overflow: auto;
-  margin-left: 10px;
-  margin-top: 10px;
-  padding-left: 20px;
-}
+/* .div-games { */
+/* background-color: purple; */
+/* float: left; */
+/* overflow: auto; */
+/* margin-left: 10px; */
+/* margin-top: 10px; */
+/* padding-left: 20px; */
+/* } */
 #foto-games {
   width: 200px;
 }
@@ -87,30 +95,42 @@ textarea {
   padding-bottom: 50px;
   width: 40%;
   background-color: #fff;
-  float: left;
+  /* float: left; */
   margin-left: 350px;
   margin-top: 40px;
   margin-bottom: 40px;
   border: 1px solid #ddd;
 }
-
+.nav-ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 .nav-ul li {
   font-size: 20px;
-  float: left;
+  /* float: left; */
   margin-right: 700px;
   margin: 30px;
   /* border-bottom: 1px; */
 }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 25px;
+}
 .images {
   width: 300px;
   height: 250px;
+
   float: left;
   margin-left: 25px;
   margin-right: 20px;
 }
 .icons {
   width: 50px;
-  margin: 5px;
+  /* margin: 5px; */
 }
 h2,
 h3 {
@@ -121,9 +141,9 @@ h3 {
   margin-right: 25px;
 }
 h2 {
-  padding-top: 20px;
+  padding-top: 35px;
   font-size: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 h3 {
   font-size: 25px;
@@ -131,9 +151,12 @@ h3 {
   padding-bottom: 15px;
 }
 h4 {
+  font-size: 20px;
   color: #fff;
   background-color: rgb(10, 210, 193);
   text-align: center;
+  position: relative;
+  top: -30px;
 }
 
 .div-right {
@@ -145,13 +168,20 @@ h4 {
   margin-bottom: 20px;
   margin-top: 40px;
   text-align: center;
-  float: right;
+  /* float: right; */
   border: 1px solid #ddd;
 }
-.div-right li {
-  padding-top: 10px;
-  float: left;
+.div-right ul {
+  display: flex;
+  gap: 10px;
+  padding: 15px 30px;
 }
+/* .div-right li { */
+/* padding-top: 10px; */
+/* display: flex; */
+/* justify-content: center; */
+/* float: left; */
+/* } */
 aside {
   margin-right: 300px;
 }
@@ -165,14 +195,14 @@ aside {
 /*right tape*/
 .div-right {
   background-color: #fff;
-  float: right;
+  /* float: right; */
 } /*footer*/
 footer {
-  clear: both;
+  /* clear: both; */
   width: 100%;
   padding: 20px;
   background-color: #ccc;
   color: #fff;
   text-align: center;
-  border-top: 6px solid rgb(10, 210, 193);
+  border-top: 5px solid rgb(10, 210, 193);
 }
